@@ -11,6 +11,7 @@
     <properties>
         <testng.version>7.0.0</testng.version>
         <selenide>5.10.0</selenide>
+        <alluremaven.version>2.10.0</alluremaven.version>
     </properties>
 
     <dependencies>
@@ -25,7 +26,13 @@
             <artifactId>selenide</artifactId>
             <version>${selenide}</version>
         </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.12.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
-    
+
 </project>
